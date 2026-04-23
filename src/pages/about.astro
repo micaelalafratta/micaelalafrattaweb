@@ -71,19 +71,31 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 		margin-top: 1.5rem;
 		border-radius: 1.5rem;
 		box-shadow: var(--shadow-md);
+		border: 2px solid #48769e;
 	}
 
 	section {
 		display: flex;
 		flex-direction: column;
 		gap: 0.5rem;
-		color: var(--gray-200);
+		color: #6b4a3a;
+		font-family: var(--font-body);
+	}
+
+	:global(.theme-dark) section {
+		color: #a88a78;
 	}
 
 	.section-title {
 		grid-column-start: 1;
 		font-size: var(--text-xl);
-		color: var(--gray-0);
+		color: #140a0b;
+		font-family: var(--font-brand);
+		font-weight: 600;
+	}
+
+	:global(.theme-dark) .section-title {
+		color: #f7f3e9;
 	}
 
 	.content {
@@ -91,6 +103,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 	}
 
 	.content :global(a) {
+		color: #48769e;
 		text-decoration: 1px solid underline transparent;
 		text-underline-offset: 0.25em;
 		transition: text-decoration-color var(--theme-transition);
@@ -99,6 +112,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 	.content :global(a:hover),
 	.content :global(a:focus) {
 		text-decoration-color: currentColor;
+		color: #c5774a;
 	}
 
 	@media (min-width: 50em) {

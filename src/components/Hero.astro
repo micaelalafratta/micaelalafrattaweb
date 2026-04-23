@@ -30,7 +30,21 @@ const { align = 'center', tagline, title } = Astro.props;
 
 	.title {
 		font-size: var(--text-3xl);
-		color: var(--gray-0);
+		font-family: var(--font-brand);
+		color: #140a0b;
+	}
+
+	.tagline {
+		color: #6b4a3a;
+		font-family: var(--font-body);
+	}
+
+	:global(.theme-dark) .title {
+		color: #f7f3e9;
+	}
+
+	:global(.theme-dark) .tagline {
+		color: #c4aaa0;
 	}
 
 	@media (min-width: 50em) {

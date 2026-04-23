@@ -4,17 +4,17 @@ import Icon from './Icon.astro';
 
 <section class="box skills">
 	<div class="stack gap-2 lg:gap-4">
-		<Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient />
+		<Icon icon="terminal-window" color="#48769e" size="2.5rem" />
 		<h2>Full Stack</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
 	</div>
 	<div class="stack gap-2 lg:gap-4">
-		<Icon icon="trophy" color="var(--accent-regular)" size="2.5rem" gradient />
+		<Icon icon="trophy" color="#48769e" size="2.5rem" />
 		<h2>Industry Leader</h2>
 		<p>Neque viverra justo nec ultrices dui. Est ultricies integer quis auctor elit.</p>
 	</div>
 	<div class="stack gap-2 lg:gap-4">
-		<Icon icon="strategy" color="var(--accent-regular)" size="2.5rem" gradient />
+		<Icon icon="strategy" color="#48769e" size="2.5rem" />
 		<h2>Strategy-Minded</h2>
 		<p>Urna porttitor rhoncus dolor purus non enim praesent ornare.</p>
 	</div>
@@ -22,11 +22,16 @@ import Icon from './Icon.astro';
 
 <style>
 	.box {
-		border: 1px solid var(--gray-800);
+		border: 1px solid #48769e;
 		border-radius: 0.75rem;
 		padding: 1.5rem;
-		background-color: var(--gray-999_40);
+		background-color: #f7f3e9;
 		box-shadow: var(--shadow-sm);
+	}
+
+	:global(.theme-dark) .box {
+		background-color: #1e1210;
+		border-color: #2b4d6e;
 	}
 
 	.skills {
@@ -37,10 +42,21 @@ import Icon from './Icon.astro';
 
 	.skills h2 {
 		font-size: var(--text-lg);
+		color: #140a0b;
+		font-family: var(--font-brand);
+	}
+
+	:global(.theme-dark) .skills h2 {
+		color: #f7f3e9;
 	}
 
 	.skills p {
-		color: var(--gray-400);
+		color: #6b4a3a;
+		font-family: var(--font-body);
+	}
+
+	:global(.theme-dark) .skills p {
+		color: #a88a78;
 	}
 
 	@media (min-width: 50em) {

@@ -18,20 +18,23 @@ const currentYear = new Date().getFullYear();
 		<a href="https://codepen.io/me"> CodePen</a>
 	</p>
 </footer>
+
 <style>
 	footer {
 		display: flex;
 		flex-direction: column;
 		gap: 3rem;
 		margin-top: auto;
-		padding: 3rem 2rem 3rem;
+		padding: 3rem 2rem;
 		text-align: center;
-		color: var(--gray-400);
+		color: #6b4a3a;
 		font-size: var(--text-sm);
+		border-top: 1px solid #48769e;
+		background-color: #f7f3e9;
 	}
 
 	footer a {
-		color: var(--gray-400);
+		color: #48769e;
 		text-decoration: 1px solid underline transparent;
 		text-underline-offset: 0.25em;
 		transition: text-decoration-color var(--theme-transition);
@@ -40,6 +43,7 @@ const currentYear = new Date().getFullYear();
 	footer a:hover,
 	footer a:focus {
 		text-decoration-color: currentColor;
+		color: #c5774a;
 	}
 
 	.group {

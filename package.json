@@ -12,6 +12,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@iconify-json/lucide": "^1.2.102",
     "astro": "^6.1.2"
   }
 }
