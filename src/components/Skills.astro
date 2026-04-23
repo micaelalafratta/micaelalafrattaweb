@@ -25,13 +25,8 @@ import Icon from './Icon.astro';
 		border: 1px solid #48769e;
 		border-radius: 0.75rem;
 		padding: 1.5rem;
-		background-color: #f7f3e9;
+		background-color: var(--gray-999);
 		box-shadow: var(--shadow-sm);
-	}
-
-	:global(.theme-dark) .box {
-		background-color: #1e1210;
-		border-color: #2b4d6e;
 	}
 
 	.skills {
@@ -42,21 +37,13 @@ import Icon from './Icon.astro';
 
 	.skills h2 {
 		font-size: var(--text-lg);
-		color: #140a0b;
 		font-family: var(--font-brand);
-	}
-
-	:global(.theme-dark) .skills h2 {
-		color: #f7f3e9;
+		color: var(--gray-0);
 	}
 
 	.skills p {
-		color: #6b4a3a;
+		color: var(--gray-300);
 		font-family: var(--font-body);
-	}
-
-	:global(.theme-dark) .skills p {
-		color: #a88a78;
 	}
 
 	@media (min-width: 50em) {

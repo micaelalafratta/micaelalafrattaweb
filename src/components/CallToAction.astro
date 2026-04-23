@@ -13,6 +13,7 @@ const { href } = Astro.props;
 		position: relative;
 		display: flex;
 		place-content: center;
+		align-items: center;
 		text-align: center;
 		padding: 0.56em 2em;
 		gap: 0.8em;
@@ -30,17 +31,15 @@ const { href } = Astro.props;
 		transition: background-color var(--theme-transition);
 	}
 
+	/* Fuerza el icono SVG dentro del botón a heredar el color crema */
+	a :global(svg) {
+		stroke: #f7f3e9;
+	}
+
 	a:hover,
 	a:focus {
 		background: #653001;
 		outline: none;
-	}
-
-	a::after {
-		content: '';
-		position: absolute;
-		inset: 0;
-		pointer-events: none;
 	}
 
 	@media (min-width: 20em) {
