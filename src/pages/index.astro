@@ -21,14 +21,13 @@ const projects = (await getCollection('work'))
 			<header class="hero">
 				<Hero
 					title="Hello, my name is Micaela Lafratta"
-					tagline="Turning complex data into actionable narratives for smarter business decisions."
+					tagline="I bridge data and communication — turning insights into decisions that actually land."
 					align="start"
 				>
 					<div class="roles">
-						<Pill> Communications</Pill>
-						<Pill> AI</Pill>
-						<Pill> Business Intelligence</Pill>
-						
+						<Pill>Communications</Pill>
+						<Pill>Data & AI Ethics</Pill>
+						<Pill>Business Insights</Pill>
 					</div>
 				</Hero>
 
@@ -44,10 +43,12 @@ const projects = (await getCollection('work'))
 		</div>
 
 		<main class="wrapper stack gap-20 lg:gap-48">
-			<section class="section with-cta">
+
+			<!-- SELECTED WORK -->
+			<section id="work" class="section with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Selected Work</h3>
-					<p>Take a look below at some of my featured work for clients from the past few years.</p>
+					<p>A selection of data and communications projects — from end-to-end analysis to strategic storytelling.</p>
 				</header>
 
 				<div class="gallery">
@@ -70,27 +71,99 @@ const projects = (await getCollection('work'))
 				</div>
 			</section>
 
-			<section class="section">
+			<!-- ABOUT -->
+			<section id="about" class="section about-section">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
-					<p>
-						I have been fortunate enough to receive praise for my work in several publications. Take
-						a look below to learn more.
-					</p>
+					<h3>About Me</h3>
 				</header>
 
-				<div class="gallery">
-					<Grid variant="small">
-						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
-								<li class="mention-card">
-									<p>{brand}</p>
-								</li>
-							))
-						}
-					</Grid>
+				<div class="about-body">
+
+					<!-- Full-width photo -->
+					<div class="about-photo">
+						<img
+							src="/assets/at-work.jpg"
+							alt="Micaela Lafratta facilitating a workshop with an audience"
+							loading="lazy"
+						/>
+					</div>
+
+					<!-- Two-column: text + skills -->
+					<div class="about-content">
+						<div class="about-text stack gap-4">
+							<p>
+								I'm a Senior Communications Strategist with 8 years of experience in SaaS and non-profit 
+								environments, with a growing technical stack in data analysis.
+							</p>
+							<p>
+								I work at the intersection of strategic communication, data analysis and AI ethics. 
+								My technical stack — SQL, Python, BigQuery, Power BI — isn't a side skill. It's how I 
+								understand what's really happening in a business, and how I make sure the right people 
+								act on it.
+							</p>
+							<p>
+								I've trained 200+ people, managed international stakeholder relationships across 24+ 
+								partner organisations, and built reporting frameworks that translate complexity into decisions.
+							</p>
+							<p>
+								I work in English, French and Spanish. AI ethics isn't a buzzword for me — it's a design 
+								principle shaped by a background in human rights.
+							</p>
+
+							<div class="about-cta">
+								<CallToAction href="/assets/Micaela_Lafratta_CV.pdf">
+									Download CV
+									<Icon icon="arrow-right" size="1.2em" />
+								</CallToAction>
+							</div>
+						</div>
+
+						<div class="about-skills stack gap-4">
+							<div class="skill-group">
+								<h4>Analytics & Data</h4>
+								<div class="pill-group">
+									<Pill>SQL</Pill>
+									<Pill>Python</Pill>
+									<Pill>BigQuery</Pill>
+									<Pill>Power BI</Pill>
+									<Pill>Tableau</Pill>
+									<Pill>GA4</Pill>
+								</div>
+							</div>
+
+							<div class="skill-group">
+								<h4>Communications</h4>
+								<div class="pill-group">
+									<Pill>Storytelling</Pill>
+									<Pill>Copywriting</Pill>
+									<Pill>Content Strategy</Pill>
+									<Pill>KPI Reporting</Pill>
+								</div>
+							</div>
+
+							<div class="skill-group">
+								<h4>Strategy & Management</h4>
+								<div class="pill-group">
+									<Pill>Stakeholder Management</Pill>
+									<Pill>Project Management</Pill>
+									<Pill>Training & Facilitation</Pill>
+									<Pill>Client Management</Pill>
+								</div>
+							</div>
+
+							<div class="skill-group">
+								<h4>AI & Ethics</h4>
+								<div class="pill-group">
+									<Pill>AI Ethics</Pill>
+									<Pill>Data Literacy</Pill>
+									<Pill>LLM for Market Research</Pill>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</section>
+
 		</main>
 
 		<ContactCTA />
@@ -98,6 +171,7 @@ const projects = (await getCollection('work'))
 </BaseLayout>
 
 <style>
+	/* ===================== HERO ===================== */
 	.hero {
 		display: flex;
 		flex-direction: column;
@@ -140,8 +214,7 @@ const projects = (await getCollection('work'))
 		}
 	}
 
-	/* ====================================================== */
-
+	/* ===================== SECTIONS ===================== */
 	.section {
 		display: grid;
 		gap: 2rem;
@@ -203,43 +276,121 @@ const projects = (await getCollection('work'))
 		}
 	}
 
-	/* ====================================================== */
+	/* ===================== ABOUT ===================== */
+	.about-section {
+		display: grid;
+		gap: 2rem;
+	}
 
-	.mention-card {
+	.about-body {
 		display: flex;
-		height: 7rem;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-		border: 1px solid #48769e;
+		flex-direction: column;
+		gap: 2.5rem;
+	}
+
+	/* Wide photo */
+	.about-photo {
+		width: 100%;
 		border-radius: 1.5rem;
-		color: #48769e;
-		background: #f7f3e9;
-		box-shadow: var(--shadow-sm);
+		overflow: hidden;
+		box-shadow: var(--shadow-md);
+		border: 2px solid #48769e;
+		max-height: 28rem;
+	}
+
+	.about-photo img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center 30%;
+		display: block;
+	}
+
+	/* Two-column content */
+	.about-content {
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+	}
+
+	.about-text p {
+		font-size: var(--text-md);
+		color: #6b4a3a;
+		line-height: 1.75;
+		max-width: 65ch;
+	}
+
+	:global(.theme-dark) .about-text p {
+		color: #a88a78;
+	}
+
+	.about-cta {
+		margin-top: 1rem;
+	}
+
+	/* Skill groups */
+	.skill-group {
+		display: flex;
+		flex-direction: column;
+		gap: 0.75rem;
+	}
+
+	.skill-group h4 {
+		font-size: var(--text-sm);
 		font-family: var(--font-brand);
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		color: #48769e;
 		font-weight: 600;
-		transition: border-color var(--theme-transition), background-color var(--theme-transition);
 	}
 
-	.mention-card:hover {
-		border-color: #c5774a;
-		color: #c5774a;
-	}
-
-	:global(.theme-dark) .mention-card {
-		background: #1e1210;
-		border-color: #2b4d6e;
+	:global(.theme-dark) .skill-group h4 {
 		color: #7ab0d4;
 	}
 
-	:global(.theme-dark) .mention-card:hover {
-		border-color: #c5774a;
-		color: #c5774a;
+	.pill-group {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
 	}
 
 	@media (min-width: 50em) {
-		.mention-card {
-			height: 9.5rem;
+		.about-section {
+			grid-template-columns: repeat(4, 1fr);
+			grid-template-areas:
+				'header header header header'
+				'body body body body';
+			gap: 5rem;
+		}
+
+		.about-section .section-header {
+			grid-area: header;
+			justify-self: flex-start;
+			text-align: left;
+			font-size: var(--text-lg);
+		}
+
+		.about-section .section-header h3 {
+			font-size: var(--text-4xl);
+		}
+
+		.about-body {
+			grid-area: body;
+			gap: 3rem;
+		}
+
+		.about-photo {
+			border-radius: 2rem;
+			max-height: 32rem;
+		}
+
+		.about-content {
+			display: grid;
+			grid-template-columns: 3fr 2fr;
+			gap: 4rem;
+			align-items: start;
 		}
 	}
 </style>
+
+

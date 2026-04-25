@@ -5,8 +5,8 @@ import ThemeToggle from './ThemeToggle.astro';
 
 const textLinks: { label: string; href: string }[] = [
 	{ label: 'Home', href: '/' },
-	{ label: 'Work', href: '/work/' },
-	{ label: 'About', href: '/about/' },
+	{ label: 'Work', href: '/#work' },
+	{ label: 'About', href: '/#about' },
 ];
 
 const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[] = [
@@ -14,12 +14,8 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 	{ label: 'GitHub', href: 'https://github.com/micaelalafratta', icon: 'github-logo' },
 ];
 
-const isCurrentPage = (href: string) => {
-	let pathname = Astro.url.pathname.replace(import.meta.env.BASE_URL, '');
-	if (pathname.at(0) !== '/') pathname = '/' + pathname;
-	if (pathname.at(-1) !== '/') pathname += '/';
-	return pathname === href || (href !== '/' && pathname.startsWith(href));
-};
+// For anchor links we just check if we're on the home page
+const isHome = Astro.url.pathname === '/' || Astro.url.pathname === import.meta.env.BASE_URL;
 ---
 
 <nav>
@@ -42,7 +38,7 @@ const isCurrentPage = (href: string) => {
 			{
 				textLinks.map(({ label, href }) => (
 					<li>
-						<a aria-current={isCurrentPage(href) ? 'page' : null} class="link" href={href}>
+						<a class="link" href={href}>
 							{label}
 						</a>
 					</li>
@@ -69,7 +65,7 @@ const isCurrentPage = (href: string) => {
 			{
 				textLinks.map(({ label, href }) => (
 					<li>
-						<a aria-current={isCurrentPage(href) ? 'page' : null} class="link" href={href}>
+						<a class="link" href={href}>
 							{label}
 						</a>
 					</li>
@@ -111,6 +107,15 @@ const isCurrentPage = (href: string) => {
 
 			btn.addEventListener('click', () => setExpanded(menu.hidden === true));
 
+			// Close mobile menu when clicking an anchor link
+			menu.querySelectorAll('a').forEach(link => {
+				link.addEventListener('click', () => {
+					if (window.innerWidth < 800) {
+						setExpanded(false);
+					}
+				});
+			});
+
 			const handleViewports = (e: MediaQueryList | MediaQueryListEvent) => {
 				setExpanded(e.matches);
 				btn.hidden = e.matches;
@@ -126,16 +131,21 @@ const isCurrentPage = (href: string) => {
 <style>
 	nav {
 		z-index: 9999;
-		position: relative;
+		position: sticky;
+		top: 0;
 		font-family: var(--font-brand);
 		font-weight: 500;
 		margin-bottom: 3.5rem;
 		background-color: #f7f3e9;
 		border-bottom: 1px solid #48769e;
+		/* Subtle backdrop blur for a polished sticky effect */
+		backdrop-filter: blur(8px);
+		-webkit-backdrop-filter: blur(8px);
+		background-color: rgba(247, 243, 233, 0.95);
 	}
 
 	:global(.theme-dark) nav {
-		background-color: #140a0b;
+		background-color: rgba(20, 10, 11, 0.95);
 		border-bottom-color: #2b4d6e;
 	}
 
@@ -280,9 +290,10 @@ const isCurrentPage = (href: string) => {
 			display: grid;
 			grid-template-columns: 1fr auto 1fr;
 			align-items: center;
-			padding: 2.5rem 5rem;
+			padding: 1rem 5rem;
 			gap: 1rem;
 			border-bottom: none;
+			box-shadow: 0 1px 12px rgba(72, 118, 158, 0.10);
 		}
 
 		.menu-header {
