@@ -42,6 +42,15 @@ const { href } = Astro.props;
 		outline: none;
 	}
 
+	/* Modo oscuro — texto y flecha en negro para mayor elegancia */
+	:global(.theme-dark) a {
+		color: #140a0b;
+	}
+
+	:global(.theme-dark) a :global(svg) {
+		stroke: #140a0b;
+	}
+
 	@media (min-width: 20em) {
 		a {
 			font-size: var(--text-lg);
