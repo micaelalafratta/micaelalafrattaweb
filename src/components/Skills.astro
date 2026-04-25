@@ -9,7 +9,7 @@ import Icon from './Icon.astro';
 		<p>SQL, Python and BI tools applied to communications strategy — because data without narrative doesn't drive change.</p>
 	</div>
 	<div class="stack gap-2 lg:gap-4">
-		<Icon icon="terminal-window"="#48769e" size="2.5rem" />
+		<Icon icon="terminal-window" color="#48769e" size="2.5rem" />
 		<h2>AI Ethics</h2>
 		<p>AI ethics as a design principle, not a disclaimer — shaped by a background in human rights and 8 years in mission-driven organisations. </p>
 	</div>
@@ -44,6 +44,10 @@ import Icon from './Icon.astro';
 	.skills p {
 		color: var(--gray-300);
 		font-family: var(--font-body);
+	}
+
+	:global(.theme-dark) .skills p {
+		color: #c4aaa0;
 	}
 
 	@media (min-width: 50em) {
