@@ -192,24 +192,20 @@ h5 {
 	color: #f7f3e9;
 }
 
-h1 {
-	font-size: var(--text-5xl);
-}
+/* Tamaños móvil (por defecto) */
+h1 { font-size: var(--text-2xl); }  /* 34px */
+h2 { font-size: var(--text-xl); }   /* 26px */
+h3 { font-size: var(--text-lg); }   /* 20px */
+h4 { font-size: var(--text-md); }   /* 18px */
+h5 { font-size: var(--text-base); } /* 16px */
 
-h2 {
-	font-size: var(--text-4xl);
-}
-
-h3 {
-	font-size: var(--text-3xl);
-}
-
-h4 {
-	font-size: var(--text-2xl);
-}
-
-h5 {
-	font-size: var(--text-xl);
+/* Tamaños desktop */
+@media (min-width: 50em) {
+	h1 { font-size: var(--text-5xl); }  /* 72px */
+	h2 { font-size: var(--text-4xl); }  /* 56px */
+	h3 { font-size: var(--text-3xl); }  /* 42px */
+	h4 { font-size: var(--text-2xl); }  /* 34px */
+	h5 { font-size: var(--text-xl); }   /* 26px */
 }
 
 /* =============================================
