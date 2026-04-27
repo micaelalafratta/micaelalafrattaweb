@@ -43,7 +43,7 @@ const { Content } = await render(entry);
 				</div>
 			</header>
 			<main class="wrapper">
-				<div class="stack gap-10 content">
+				<div class="stack gap-10">
 					{entry.data.img && <img src={entry.data.img} alt={entry.data.img_alt || ''} />}
 					<div class="content">
 						<Content />
@@ -77,16 +77,20 @@ const { Content } = await render(entry);
 	.tags {
 		display: flex;
 		gap: 0.5rem;
+		flex-wrap: wrap; /* ✅ fix: evita overflow de pills en móvil */
 	}
 
 	.description {
 		font-size: var(--text-lg);
 		max-width: 54ch;
+		width: 100%; /* ✅ fix: defensivo para pantallas pequeñas */
 	}
 
 	.content {
 		max-width: 65ch;
 		margin-inline: auto;
+		width: 100%;  /* ✅ fix: ocupa el ancho disponible */
+		min-width: 0; /* ✅ fix: evita overflow en hijos de flexbox/grid */
 	}
 
 	.content > :global(* + *) {
