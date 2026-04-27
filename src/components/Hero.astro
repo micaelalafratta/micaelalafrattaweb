@@ -29,9 +29,12 @@ const { align = 'center', tagline, title } = Astro.props;
 	}
 
 	.title {
-		font-size: var(--text-3xl);
+		font-size: var(--text-2xl); /* móvil: un paso más pequeño que antes */
 		font-family: var(--font-brand);
 		color: #140a0b;
+		word-break: break-word;
+		overflow-wrap: anywhere;
+		hyphens: auto;
 	}
 
 	.tagline {
