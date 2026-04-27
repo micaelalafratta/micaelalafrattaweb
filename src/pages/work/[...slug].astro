@@ -97,12 +97,41 @@ const { Content } = await render(entry);
 		margin-top: 1rem;
 	}
 
+	/* Body text legible en móvil */
+	.content :global(p),
+	.content :global(li) {
+		font-size: var(--text-md);
+		line-height: 1.75;
+	}
+
+	/* Títulos del .md con tamaño controlado en móvil */
+	.content :global(h2) {
+		font-size: var(--text-xl);
+		margin: 1.5rem 0;
+		word-break: break-word;
+		overflow-wrap: anywhere;
+	}
+
+	.content :global(h3) {
+		font-size: var(--text-lg);
+		margin: 1.5rem 0;
+		word-break: break-word;
+		overflow-wrap: anywhere;
+	}
+
 	.content :global(h1),
-	.content :global(h2),
-	.content :global(h3),
 	.content :global(h4),
 	.content :global(h5) {
 		margin: 1.5rem 0;
+		word-break: break-word;
+		overflow-wrap: anywhere;
+	}
+
+	@media (min-width: 50em) {
+		.content :global(h2) { font-size: var(--text-2xl); }
+		.content :global(h3) { font-size: var(--text-xl); }
+		.content :global(p),
+		.content :global(li) { font-size: var(--text-lg); }
 	}
 
 	.content :global(img) {
