@@ -9,6 +9,7 @@ const workSchema = z.object({
 	tags: z.array(z.string()),
 	img: z.string(),
 	img_alt: z.string().optional(),
+	featured: z.boolean().optional(),
 });
 
 export const collections = {
