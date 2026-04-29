@@ -1,7 +1,7 @@
 ---
 title: Mujeres Construyendo en Paz
 publishDate: 2021-12-01 00:00:00
-img: /assets/foto.png
+img: /assets/mcp/mcp1.png
 img_alt: Communications materials and press coverage for Mujeres Construyendo en Paz
 description: |
   End-to-end communications for a Spain-Colombia partnership of 5 organisations working on women's rights, peace processes and refugee advocacy — from communication plan to press coverage and final impact report.

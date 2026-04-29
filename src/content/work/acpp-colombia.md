@@ -21,6 +21,8 @@ The communications campaign centred on the visit of Gerardo Vega, a Colombian hu
 
 ACPP externalises its communications function entirely. Throughout this project, I served as their de facto communications lead — the primary point of contact between the organisation and all media, design and audiovisual collaborators.
 
+![Project](/assets/acpp/acpp7.jpg)
+
 ## Scope & Responsibilities
 
 **Media strategy & press outreach:** Developed the press strategy for the campaign, including direct outreach to journalists with existing relationships in the human rights and international affairs beat — among them contacts at *Levante*, *À Punt*, and the CVONGD media network. Managed personalised journalist contact for strategic placements, including a segment on *À Punt* featuring Gerardo Vega ahead of the main event.

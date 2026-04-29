@@ -1,7 +1,7 @@
 ---
 title: ISCOD-UGT — Ropa Sucia Documental
 publishDate: 2024-06-01 00:00:00
-img: /assets/foto.png
+img: /assets/iscod/iscod 1.png
 img_alt: Website for Ropa Sucia documentary and its educational guide
 description: |
   WordPress website for a documentary and its educational guide — building a digital space for testimonies and news, and training the communications team to manage it independently.

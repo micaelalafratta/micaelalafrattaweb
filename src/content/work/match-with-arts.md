@@ -1,7 +1,7 @@
 ---
 title: Match With Arts and Culture
 publishDate: 2023-12-01 00:00:00
-img: /assets/foto.png
+img: /assets/mac/mac1.png
 img_alt: Website and social media materials for the Match With Arts and Culture European project
 description: |
   2-year EU-funded project promoting cultural mentoring for social inclusion — contributing web development, social media content and reporting templates across a 6-organisation partnership in Spain, Italy, the Netherlands and Bulgaria.

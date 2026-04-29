@@ -1,5 +1,5 @@
 ---
-title: Recipok — Brand & Digital Strategy
+title: Recipok — SaaS — Brand & Digital Strategy
 publishDate: 2025-06-01 00:00:00
 img: /assets/recipok/recipok1.png
 img_alt: Testimonial videos and website redesign for Recipok SaaS

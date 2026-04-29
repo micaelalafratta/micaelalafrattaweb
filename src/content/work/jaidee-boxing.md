@@ -1,7 +1,7 @@
 ---
 title: Jaidee Boxing — Digital Launch
 publishDate: 2020-12-01 00:00:00
-img: /assets/foto.png
+img: /assets/jaidee/jaidee1.png
 img_alt: Jaidee Boxing corporate video and website
 description: |
   Full digital launch for a Muay Thai school during the COVID-19 pandemic — corporate video, WordPress website and Eventbrite integration to manage class capacity and keep the business running online.
@@ -20,7 +20,7 @@ Jaidee Boxing is a Muay Thai school with no digital presence before 2020. When t
 
 **Corporate video:** Produced a corporate video capturing the essence and atmosphere of the school — scripted, filmed and edited to communicate what Jaidee Boxing is about to an audience that had never been inside the gym. The owner knew what he wanted to convey but couldn't articulate it; through the right questions and a guided process, the video ended up reflecting exactly the values and feeling of the school. It was published on YouTube and became the school's main presentation piece.
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/ID_DEL_VIDEO" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/watch?v=laFqEGCPTDI" frameborder="0" allowfullscreen></iframe>
 
 **Website:** Built the school's website from scratch in WordPress — covering information architecture, content and visual design, giving the business its first proper online home.
 

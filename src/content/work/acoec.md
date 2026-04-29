@@ -1,7 +1,7 @@
 ---
 title: ACOEC — Información ESS Web
 publishDate: 2023-09-01 00:00:00
-img: /assets/foto.png
+img: /assets/acoec/acoec1.png
 img_alt: Website for ACOEC's social and solidarity economy awareness project
 description: |
   Web project for a local awareness campaign on social and solidarity economy, ethical finance, ecofeminism and critical consumption — adapting existing infographic content into a structured, accessible digital format.
