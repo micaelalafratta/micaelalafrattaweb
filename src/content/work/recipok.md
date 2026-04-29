@@ -1,7 +1,7 @@
 ---
 title: Recipok — Brand & Digital Strategy
 publishDate: 2025-06-01 00:00:00
-img: /assets/foto.png
+img: /assets/recipok/recipok1.png
 img_alt: Testimonial videos and website redesign for Recipok SaaS
 description: |
   Communications and digital strategy for a SaaS product for bakeries — testimonial video production, website restructuring, copy overhaul and social media setup to simplify the sales process and build online presence.
@@ -10,6 +10,7 @@ tags:
   - Web Content
   - Digital Strategy
   - SaaS Communications
+featured: true
 ---
 
 ## The Project

@@ -1,7 +1,7 @@
 ---
 title: ACPP — Jóvenes Rurales, Colombia
 publishDate: 2023-11-01 00:00:00
-img: /assets/foto.png
+img: /assets/acpp/acpp13.jpg
 img_alt: Campaign materials and event imagery for the Jóvenes Rurales human rights project in Colombia
 description: |
   End-to-end communications campaign for a human rights advocacy project in Colombia — from media strategy and press outreach to event coordination and social content, acting as the sole communications lead for the organisation.

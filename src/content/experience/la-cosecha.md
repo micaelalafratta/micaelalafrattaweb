@@ -1,12 +1,12 @@
 ---
-title: La Cosecha Comunicación — Communication & Web Manager
-publishDate: 2024-06-01 00:00:00
+title: La Cosecha — Communication & Web Manager
+publishDate: 2024-10-01 00:00:00
 startDate: 2021-01-01
 endDate: 2024-06-01
-img: /assets/foto.png
+img: /assets/lacosecha/lacosecha1.JPG
 img_alt: La Cosecha Comunicación projects and client work
 description: |
-  3-year role as communications and web lead at a Valencia-based human rights consultancy...
+  3-year role as communications and web lead at a Valencia-based human rights consultancy.
 tags:
   - Communications Strategy
   - Stakeholder Management
@@ -53,7 +53,7 @@ During this role I led communications for a range of clients and projects, each 
 - **Voice Through Art** — Educational unit on photojournalism for an EU project
 - **ACOEC** — Web content adaptation for a social economy awareness campaign
 - **ISCOD-UGT** — Documentary website with team training and handover
-- **People of 2050** — 6-month communications partnership with a Danish environmental non-profit
+
 
 ## What This Role Demonstrates
 
