@@ -3,7 +3,7 @@ title: SB OverSeas — Programme Coordinator
 publishDate: 2020-04-01 00:00:00
 startDate: 2019-09-01
 endDate: 2020-04-01
-img: /assets/foto.png
+img: /assets/sboverseas1.png
 img_alt: Activities and network building for SB OverSeas
 description: |
   7-month coordination role at a Brussels-based NGO...
@@ -33,6 +33,8 @@ My programme focused on the socio-cultural inclusion of unaccompanied minors and
 **Network expansion:** Attended events like AidEx to expand the organisation's contact network and establish relationships for future collaborations beyond my programme.
 
 **The Refugee Journal:** Coordinated and designed the layout of a small publication giving Syrian refugees in Lebanon a space for self-expression. It was hosted on the organisation's website — more a meaningful exercise in voice and dignity than a wide-reaching publication, but that was exactly the point.
+
+![The Refugee Journal](/assets/sboverseas2.png)
 
 ## What This Project Demonstrates
 
