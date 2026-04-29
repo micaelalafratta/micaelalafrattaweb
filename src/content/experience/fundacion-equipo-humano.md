@@ -3,7 +3,7 @@ title: Fundación Equipo Humano — EU Communication Manager
 publishDate: 2025-07-01 00:00:00
 startDate: 2024-07-01
 endDate: 2025-07-01
-img: /assets/feh.png
+img: /assets/feh/feh.png
 img_alt: European project communications for Fundación Equipo Humano
 description: |
   1-year role as sole communications lead.
@@ -43,7 +43,7 @@ As the only person in the communications function, I managed the full communicat
 
 **Organisational communications:** Managed Fundación Equipo Humano's own brand communications — both as a project partner and as an independent organisation — across digital channels and external-facing materials.
 
-## What This Project Demonstrates
+## What This Role Demonstrates
 
 Managing communications for multiple simultaneous EU projects — each with its own partners, timelines, deliverables and reporting requirements — demands a level of organisational rigour that goes well beyond content production. Every report submitted to the European Commission had to be accurate, structured and on time, regardless of what else was moving in parallel.
 

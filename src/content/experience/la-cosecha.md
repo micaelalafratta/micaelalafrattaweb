@@ -25,7 +25,7 @@ I was the communications department: responsible for the full communications out
 
 ## Scope & Responsibilities
 
-**Client communications portfolio:** Managed communications for a portfolio of 12+ clients simultaneously — including NGOs, European projects and civil society organisations working across Spain, Colombia, Tunisia, Niger, El Salvador, Palestine and several other contexts. Each client had its own communication needs, timelines and reporting requirements.
+**Client communications portfolio:** Managed communications for a portfolio of 12+ clients simultaneously — including NGOs, European projects and civil society organisations working across Spain, Colombia, Tunisia, Niger, El Salvador, Palestine, and several other contexts. Each client had its own communication needs, timelines and reporting requirements.
 
 **Client relationship management:** Led direct relationships with all clients — coordinating briefings, follow-up meetings, budget conversations and delivery across the full portfolio. Organised and structured client coordination processes within my area of responsibility, improving workflows and communication handoffs where I had the scope to do so.
 
@@ -55,7 +55,7 @@ During this role I led communications for a range of clients and projects, each 
 - **ISCOD-UGT** — Documentary website with team training and handover
 - **People of 2050** — 6-month communications partnership with a Danish environmental non-profit
 
-## What This Project Demonstrates
+## What This Role Demonstrates
 
 Three years managing communications for a consultancy with no in-house client communications structure means building that structure yourself — while simultaneously delivering for 12+ clients, coordinating European projects and contributing to organisational strategy.
 
