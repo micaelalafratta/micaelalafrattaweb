@@ -10,6 +10,7 @@ tags:
   - Media Relations
   - Event Communications
   - Human Rights
+featured: true
 ---
 
 ## The Project

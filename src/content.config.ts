@@ -15,6 +15,7 @@ export const collections = {
 	work: defineCollection({
 		loader: glob({ base: './src/content/work', pattern: '**/*.md' }),
 		schema: workSchema,
+		
 	}),
 	dataProjects: defineCollection({
 		loader: glob({ base: './src/content/dataProjects', pattern: '**/*.md' }),
