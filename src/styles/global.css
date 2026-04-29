@@ -201,11 +201,11 @@ h5 { font-size: var(--text-base); } /* 16px */
 
 /* Tamaños desktop */
 @media (min-width: 50em) {
-	h1 { font-size: var(--text-5xl); }  /* 72px */
-	h2 { font-size: var(--text-4xl); }  /* 56px */
-	h3 { font-size: var(--text-3xl); }  /* 42px */
-	h4 { font-size: var(--text-2xl); }  /* 34px */
-	h5 { font-size: var(--text-xl); }   /* 26px */
+	h1 { font-size: var(--text-4xl); }  /* 56px */
+	h2 { font-size: var(--text-3xl); }  /* 42px */
+	h3 { font-size: var(--text-2xl); }  /* 34px */
+	h4 { font-size: var(--text-xl); }   /* 26px */
+	h5 { font-size: var(--text-lg); }   /* 20px */
 }
 
 /* =============================================
