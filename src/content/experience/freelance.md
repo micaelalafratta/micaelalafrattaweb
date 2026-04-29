@@ -2,7 +2,7 @@
 title: Freelance — Digital Marketing & Strategic Communication
 publishDate: 2025-04-01 00:00:00
 startDate: 2017-09-01
-endDate: 2025-06-01
+endDate: 2024-06-01
 img: /assets/freelance/freelance1.jpg
 img_alt: Freelance communications and digital strategy projects
 description: |
