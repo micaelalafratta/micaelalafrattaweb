@@ -1,0 +1,38 @@
+---
+import { getCollection } from 'astro:content';
+import ContactCTA from '../components/ContactCTA.astro';
+import Grid from '../components/Grid.astro';
+import Hero from '../components/Hero.astro';
+import PortfolioPreview from '../components/PortfolioPreview.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ExperiencePreview from '../components/ExperiencePreview.astro';
+
+const experiences = (await getCollection('experience')).sort(
+	(a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf(),
+);
+---
+
+<BaseLayout
+	title="Experience | Micaela Lafratta"
+	description="Professional experience and roles held by Micaela Lafratta"
+>
+	<div class="stack gap-20">
+		<main class="wrapper stack gap-8">
+			<Hero
+				title="Experience"
+				tagline="Roles where I've led communications, coordinated European projects and contributed to organisational strategy."
+				align="start"
+			/>
+			<Grid variant="offset">
+				{
+					experiences.map((entry) => (
+						<li>
+							<ExperiencePreview entry={entry} />
+						</li>
+					))
+				}
+			</Grid>
+		</main>
+		<ContactCTA />
+	</div>
+</BaseLayout>
