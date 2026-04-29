@@ -3,10 +3,10 @@ title: Fundación Equipo Humano — EU Communication Manager
 publishDate: 2025-07-01 00:00:00
 startDate: 2024-07-01
 endDate: 2025-07-01
-img: /assets/foto.png
+img: /assets/feh.png
 img_alt: European project communications for Fundación Equipo Humano
 description: |
-  1-year role as sole communications lead...
+  1-year role as sole communications lead.
 tags:
   - EU Projects
   - Communications Strategy
@@ -39,7 +39,7 @@ As the only person in the communications function, I managed the full communicat
 
 **Proposal writing:** Contributed regularly to the drafting of new project proposals — writing the communications and impact sections for funding applications submitted to the European Commission.
 
-**Brand system & design templates:** On joining the organisation, I led an overhaul of the communications workflow. Working with the designer, I developed a comprehensive template system covering all recurring communication formats — for every project, usable by both internal staff and external partners without breaking visual consistency. The goal was to decentralise routine design tasks away from the designer, freeing up their capacity for more complex work and significantly reducing turnaround times across the team. This is the work I'm most proud of from this role.
+**Brand system & design templates:** On joining the organisation, I led an overhaul of the communications workflow. Working with the designer, I developed a comprehensive template system covering all recurring communication formats — for every project, usable by both internal staff and external partners without breaking visual consistency. The goal was to decentralise routine design tasks away from the designer, freeing up her capacity for more complex work and significantly reducing turnaround times across the team. This is the work I'm most proud of from this role.
 
 **Organisational communications:** Managed Fundación Equipo Humano's own brand communications — both as a project partner and as an independent organisation — across digital channels and external-facing materials.
 
