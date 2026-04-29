@@ -7,12 +7,20 @@ import Hero from '../components/Hero.astro';
 import Icon from '../components/Icon.astro';
 import Pill from '../components/Pill.astro';
 import PortfolioPreview from '../components/PortfolioPreview.astro';
+import ExperiencePreview from '../components/ExperiencePreview.astro';
 import Skills from '../components/Skills.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 
 const projects = (await getCollection('work'))
 	.sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
 	.slice(0, 4);
+
+const dataProjects = (await getCollection('dataProjects'))
+	.sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
+	.slice(0, 4);
+
+const experiences = (await getCollection('experience'))
+	.sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
 ---
 
 <BaseLayout>
@@ -71,6 +79,33 @@ const projects = (await getCollection('work'))
 				</div>
 			</section>
 
+			<!-- DATA PROJECTS -->
+			<section id="data-projects" class="section with-cta">
+				<header class="section-header stack gap-2 lg:gap-4">
+					<h3>Data Projects</h3>
+					<p>Personal and academic projects exploring data analysis, visualization and technical problem-solving.</p>
+				</header>
+
+				<div class="gallery">
+					<Grid variant="offset">
+						{
+							dataProjects.map((project) => (
+								<li>
+									<PortfolioPreview project={project} />
+								</li>
+							))
+						}
+					</Grid>
+				</div>
+
+				<div class="cta">
+					<CallToAction href="/data-projects/">
+						View All
+						<Icon icon="arrow-right" size="1.2em" />
+					</CallToAction>
+				</div>
+			</section>
+
 			<!-- ABOUT -->
 			<section id="about" class="section about-section">
 				<header class="section-header stack gap-2 lg:gap-4">
@@ -79,7 +114,6 @@ const projects = (await getCollection('work'))
 
 				<div class="about-body">
 
-					<!-- Full-width photo -->
 					<div class="about-photo">
 						<img
 							src="/assets/at-work.jpg"
@@ -88,7 +122,6 @@ const projects = (await getCollection('work'))
 						/>
 					</div>
 
-					<!-- Two-column: text + skills -->
 					<div class="about-content">
 						<div class="about-text stack gap-4">
 							<p>
@@ -125,7 +158,6 @@ const projects = (await getCollection('work'))
 						</div>
 
 						<div class="about-skills stack gap-4">
-							
 
 							<div class="skill-group">
 								<h4>Communications</h4>
@@ -172,6 +204,33 @@ const projects = (await getCollection('work'))
 							</div>
 						</div>
 					</div>
+				</div>
+			</section>
+
+			<!-- EXPERIENCE -->
+			<section id="experience" class="section with-cta">
+				<header class="section-header stack gap-2 lg:gap-4">
+					<h3>Experience</h3>
+					<p>Roles where I've led communications, coordinated European projects and contributed to organisational strategy.</p>
+				</header>
+
+				<div class="gallery">
+					<Grid variant="offset">
+						{
+							experiences.map((entry) => (
+								<li>
+									<ExperiencePreview entry={entry} />
+								</li>
+							))
+						}
+					</Grid>
+				</div>
+
+				<div class="cta">
+					<CallToAction href="/experience/">
+						View All
+						<Icon icon="arrow-right" size="1.2em" />
+					</CallToAction>
 				</div>
 			</section>
 
@@ -299,7 +358,6 @@ const projects = (await getCollection('work'))
 		gap: 2.5rem;
 	}
 
-	/* Wide photo */
 	.about-photo {
 		width: 100%;
 		border-radius: 1.5rem;
@@ -317,7 +375,6 @@ const projects = (await getCollection('work'))
 		display: block;
 	}
 
-	/* Two-column content */
 	.about-content {
 		display: flex;
 		flex-direction: column;
@@ -339,7 +396,6 @@ const projects = (await getCollection('work'))
 		margin-top: 1rem;
 	}
 
-	/* Skill groups */
 	.skill-group {
 		display: flex;
 		flex-direction: column;
@@ -403,5 +459,3 @@ const projects = (await getCollection('work'))
 		}
 	}
 </style>
-
-
