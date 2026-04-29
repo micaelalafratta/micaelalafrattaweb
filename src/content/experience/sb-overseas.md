@@ -44,7 +44,7 @@ The honest reflection on this experience is that I was looking for ways to make 
 
 - Partner network built from scratch: museums, coding initiatives, educational organisations
 - Contact database created and maintained for all programme activities
-- Activities designed around participants' real circumstances and availability
+- Activities designed around participants' real circumstances and availability: +50 activities
 - Attendance and impact tracked and reported for every activity
-- Volunteer team coordinated across the full programme
-- Organisation's external network expanded through events and direct outreach
+- Volunteer team coordinated across the full programme: +15 volunteers
+- Organisation's external network expanded through events and direct outreach: +30 contacts
