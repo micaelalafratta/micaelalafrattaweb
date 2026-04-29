@@ -8,6 +8,7 @@ description: |
 tags:
   - Web Content
   - Communications
+  - WordPress
   - Social Economy
 ---
 
