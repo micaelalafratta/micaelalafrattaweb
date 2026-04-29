@@ -3,10 +3,10 @@ title: SB OverSeas — Programme Coordinator
 publishDate: 2020-04-01 00:00:00
 startDate: 2019-09-01
 endDate: 2020-04-01
-img: /assets/sboverseas1.png
+img: /assets/sboverseas1.jpeg
 img_alt: Activities and network building for SB OverSeas
 description: |
-  7-month coordination role at a Brussels-based NGO...
+  7-month coordination role at a Brussels-based NGO.
 tags:
   - Programme Coordination
   - Stakeholder Management
