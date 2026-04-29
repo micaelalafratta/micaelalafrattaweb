@@ -26,7 +26,7 @@ const projects = (await getCollection('dataProjects')).sort(
 				{
 					projects.map((project) => (
 						<li>
-							<PortfolioPreview project={project} />
+							<PortfolioPreview project={project} basePath="data-projects" />
 						</li>
 					))
 				}

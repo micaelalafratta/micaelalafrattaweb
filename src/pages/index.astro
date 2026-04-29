@@ -91,7 +91,7 @@ const experiences = (await getCollection('experience'))
 						{
 							dataProjects.map((project) => (
 								<li>
-									<PortfolioPreview project={project} />
+									<PortfolioPreview project={project} basePath="data-projects" />
 								</li>
 							))
 						}
