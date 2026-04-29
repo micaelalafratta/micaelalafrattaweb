@@ -1,16 +1,18 @@
 ---
 interface Props {
 	title: string;
+	subtitle?: string;
 	tagline?: string;
 	align?: 'start' | 'center';
 }
 
-const { align = 'center', tagline, title } = Astro.props;
+const { align = 'center', tagline, title, subtitle } = Astro.props;
 ---
 
 <div class:list={['hero stack gap-4', align]}>
 	<div class="stack gap-2">
 		<h1 class="title">{title}</h1>
+		{subtitle && <p class="subtitle">{subtitle}</p>}
 		{tagline && <p class="tagline">{tagline}</p>}
 	</div>
 	<slot />
@@ -23,18 +25,26 @@ const { align = 'center', tagline, title } = Astro.props;
 	}
 
 	.title,
-	.tagline {
+	.tagline,
+	.subtitle {
 		max-width: 37ch;
 		margin-inline: auto;
 	}
 
 	.title {
-		font-size: var(--text-2xl); /* móvil: un paso más pequeño que antes */
+		font-size: var(--text-2xl);
 		font-family: var(--font-brand);
 		color: #140a0b;
 		word-break: break-word;
 		overflow-wrap: anywhere;
 		hyphens: auto;
+	}
+
+	.subtitle {
+		font-size: var(--text-xl);
+		font-family: var(--font-brand);
+		font-weight: 600;
+		color: var(--accent-regular);
 	}
 
 	.tagline {
@@ -44,6 +54,10 @@ const { align = 'center', tagline, title } = Astro.props;
 
 	:global(.theme-dark) .title {
 		color: #f7f3e9;
+	}
+
+	:global(.theme-dark) .subtitle {
+		color: var(--accent-dark);
 	}
 
 	:global(.theme-dark) .tagline {
@@ -60,12 +74,17 @@ const { align = 'center', tagline, title } = Astro.props;
 		}
 
 		.start .title,
-		.start .tagline {
+		.start .tagline,
+		.start .subtitle {
 			margin-inline: unset;
 		}
 
 		.title {
 			font-size: var(--text-5xl);
+		}
+
+		.subtitle {
+			font-size: var(--text-2xl);
 		}
 	}
 </style>
