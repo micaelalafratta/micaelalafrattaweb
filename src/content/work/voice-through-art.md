@@ -1,15 +1,17 @@
 ---
-title: Voice Through Art
+title: Voice Through Art — Methodology and Training Development
 publishDate: 2024-12-01 00:00:00
 img: /assets/voice/voice4.png
 img_alt: Educational materials and unit content for the Voice Through Art European project
 description: |
   2-year EU-funded project promoting cultural entrepreneurship and social inclusion for young people — contributing an educational unit on photojournalism and audiovisuals as tools for social transformation across a 6-organisation European partnership.
 tags:
+  - Training Development
   - Educational Content
   - Communications
   - EU Projects
   - Social Inclusion
+featured: true
 ---
 
 ## The Project

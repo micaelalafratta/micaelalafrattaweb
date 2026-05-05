@@ -1,12 +1,13 @@
 ---
-title: With Your Own Voice
+title: With Your Own Voice — Coordination — Methodology and Training Development  
 publishDate: 2025-07-01 00:00:00
 img: /assets/wyov/wyov.png
 img_alt: With Your Own Voice project website and workshop imagery showing international collaboration across Spain, Greece, Italy and Portugal
 description: |
-  2-year EU-funded communications project coordinating 6 organisations across 4 countries — from KPI reporting and stakeholder management to workshop facilitation and web development.
+  2-year EU-funded training project. Coordinated 6 organisations across 4 countries — from KPI reporting and stakeholder management to methodologies development, workshop facilitation, and web design.
 tags:
   - Communications Strategy
+  - Training Development
   - Stakeholder Management
   - EU Projects
   - Training & Facilitation

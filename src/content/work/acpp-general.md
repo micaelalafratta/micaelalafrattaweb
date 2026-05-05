@@ -1,5 +1,5 @@
 ---
-title: ACPP — Ongoing Communications Partnership
+title: ACPP — Communications Strategy
 publishDate: 2024-06-01 00:00:00
 img: /assets/acpp/acpp9.jpg
 img_alt: Social media content and event coverage for ACPP across multiple international projects

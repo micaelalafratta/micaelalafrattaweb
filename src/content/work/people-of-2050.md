@@ -1,5 +1,5 @@
 ---
-title: People of 2050
+title: People of 2050 — Communications Strategy
 publishDate: 2022-06-01 00:00:00
 img: /assets/peopleof2050/people1.png
 img_alt: Social media content and website materials for People of 2050

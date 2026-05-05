@@ -1,5 +1,5 @@
 ---
-title: ACPP — Jóvenes Rurales, Colombia
+title: ACPP — End-to-end Communications Strategy
 publishDate: 2023-11-01 00:00:00
 img: /assets/acpp/acpp13.jpg
 img_alt: Campaign materials and event imagery for the Jóvenes Rurales human rights project in Colombia

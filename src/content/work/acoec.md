@@ -1,5 +1,5 @@
 ---
-title: ACOEC — Información ESS Web
+title: ACOEC — Web Design
 publishDate: 2023-09-01 00:00:00
 img: /assets/acoec/acoec1.png
 img_alt: Website for ACOEC's social and solidarity economy awareness project
