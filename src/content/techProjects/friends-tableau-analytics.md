@@ -1,6 +1,6 @@
 ---
 title: Friends — Show Success & Behind-the-Scenes Data
-publishDate: 2026-06-01 00:00:00
+publishDate: 2024-06-01 00:00:00
 img: /assets/friends.png
 img_alt: Tableau dashboard showing the Central Perk panel with coffee spending visualizations per character and time spent at the coffee shop
 description: |
