@@ -3,6 +3,7 @@ title: Airline Loyalty Customer Analysis
 publishDate: 2026-06-01 00:00:00
 img: /assets/viz_flights.png
 img_alt: Scatter plot showing correlation between flight distance and points accumulated, segmented by loyalty card tier
+featured: true
 description: |
   End-to-end exploratory analysis of a Canadian airline's loyalty programme — from raw data to executive report across 405,624 monthly flight records.
 tags:

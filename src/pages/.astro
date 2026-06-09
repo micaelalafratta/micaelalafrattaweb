@@ -80,6 +80,26 @@ const techProjects = (await getCollection('techProjects'))
 				</div>
 			</section>
 
+			<!-- EXPERIENCE -->
+			<section id="experience" class="section">
+				<header class="section-header stack gap-2 lg:gap-4">
+					<h3>Experience</h3>
+					<p>Roles where I've led communications, coordinated European projects and contributed to organisational strategy.</p>
+				</header>
+
+				<div class="gallery">
+					<Grid variant="offset">
+						{
+							experiences.map((entry) => (
+								<li>
+									<ExperiencePreview entry={entry} />
+								</li>
+							))
+						}
+					</Grid>
+				</div>
+			</section>
+
 			<!-- TECH PROJECTS -->
 			<section id="tech-projects" class="section">
 				<header class="section-header stack gap-2 lg:gap-4">
@@ -104,26 +124,6 @@ const techProjects = (await getCollection('techProjects'))
 						View All Projects
 						<Icon icon="arrow-right" size="1.2em" />
 					</CallToAction>
-				</div>
-			</section>
-
-			<!-- EXPERIENCE -->
-			<section id="experience" class="section">
-				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Experience</h3>
-					<p>Roles where I've led communications, coordinated European projects and contributed to organisational strategy.</p>
-				</header>
-
-				<div class="gallery">
-					<Grid variant="offset">
-						{
-							experiences.map((entry) => (
-								<li>
-									<ExperiencePreview entry={entry} />
-								</li>
-							))
-						}
-					</Grid>
 				</div>
 			</section>
 
@@ -178,63 +178,64 @@ const techProjects = (await getCollection('techProjects'))
 							</div>
 						</div>
 
-						
 						<div class="about-skills stack gap-4">
 
 							<div class="skill-group">
 								<h4>AI Governance & Compliance</h4>
 								<div class="pill-group">
-								<Pill>AI Governance</Pill>
-								<Pill>EU AI Act</Pill>
-								<Pill>FRIA</Pill>
-								<Pill>Algorithmic Bias</Pill>
-								<Pill>Human Rights & AI</Pill>
-								<Pill>Data Literacy</Pill>
-								<Pill>DAMA DMBOK</Pill>
+									<Pill>AI Governance</Pill>
+									<Pill>EU AI Act</Pill>
+									<Pill>FRIA</Pill>
+									<Pill>Algorithmic Bias</Pill>
+									<Pill>Human Rights & AI</Pill>
+									<Pill>Data Literacy</Pill>
+									<Pill>DAMA DMBOK</Pill>
 								</div>
 							</div>
 
 							<div class="skill-group">
 								<h4>Technical Skills</h4>
 								<div class="pill-group">
-								<Pill>SQL</Pill>
-								<Pill>Python</Pill>
-								<Pill>Power BI</Pill>
-								<Pill>Tableau</Pill>
-								<Pill>APIs</Pill>
-								</div>
-							</div>
-
-							<div class="skill-group">
-								<h4>Project & Stakeholder Management</h4>
-								<div class="pill-group">
-								<Pill>Agile</Pill>
-								<Pill>Scrum</Pill>
-								<Pill>Stakeholder Management</Pill>
-								<Pill>Project Management</Pill>
-								<Pill>Change Management</Pill>
+									<Pill>SQL</Pill>
+									<Pill>Python</Pill>
+									<Pill>Power BI</Pill>
+									<Pill>Tableau</Pill>
 								</div>
 							</div>
 
 							<div class="skill-group">
 								<h4>Communication & Training</h4>
 								<div class="pill-group">
-								<Pill>Storytelling</Pill>
-								<Pill>Training & Facilitation</Pill>
-								<Pill>KPI Reporting</Pill>
-								<Pill>EU Reporting</Pill>
+									<Pill>Storytelling</Pill>
+									<Pill>Strategic Copywriting</Pill>
+									<Pill>Content Strategy</Pill>
+									<Pill>Training & Facilitation</Pill>
+									<Pill>KPI Reporting</Pill>
+									<Pill>EU Reporting</Pill>
+								</div>
+							</div>
+
+							<div class="skill-group">
+								<h4>Project & Stakeholder Management</h4>
+								<div class="pill-group">
+									<Pill>Agile</Pill>
+									<Pill>Scrum</Pill>
+									<Pill>Stakeholder Management</Pill>
+									<Pill>Partner Coordination</Pill>
+									<Pill>Project Management</Pill>
+									<Pill>Reporting & Documentation</Pill>
+									<Pill>Change Management</Pill>
 								</div>
 							</div>
 
 							<div class="skill-group">
 								<h4>Working Languages</h4>
 								<div class="pill-group">
-								<Pill>English</Pill>
-								<Pill>Spanish</Pill>
-								<Pill>French</Pill>
+									<Pill>English</Pill>
+									<Pill>Spanish</Pill>
+									<Pill>French</Pill>
 								</div>
 							</div>
-
 						</div>
 					</div>
 				</div>

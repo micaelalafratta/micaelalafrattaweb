@@ -3,6 +3,7 @@ title: Movie Rental SQL Analytics
 publishDate: 2024-12-01 00:00:00
 img: /assets/sakila.png
 img_alt: Query results showing rental counts per customer and category aggregations from the Sakila database
+featured: true
 description: |
   24-exercise SQL assessment over the Sakila relational database — filtering, aggregation, multi-table JOINs, subqueries, and pattern matching across a movie rental schema.
 tags:

@@ -3,6 +3,7 @@ title: Friends — Show Success & Behind-the-Scenes Data
 publishDate: 2024-06-01 00:00:00
 img: /assets/friends.png
 img_alt: Tableau dashboard showing the Central Perk panel with coffee spending visualizations per character and time spent at the coffee shop
+featured: true
 description: |
   Visual analysis of one of the most successful shows in television history — 4 interactive Tableau dashboards (some built with AI-generated datasets), a custom color palette, and a thematic design rooted in the Friends universe.
 tags:
