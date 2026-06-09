@@ -20,7 +20,10 @@ What makes a TV show last 30+ years? The Simpsons is not just a cultural phenome
 
 ## Approach & Technical Execution
 
-This was a 3-week group project covering the full analytics pipeline, from dataset generation to visual storytelling. I acted as scrum master.
+This was a 3-week group project covering the full analytics pipeline, from dataset generation to visual storytelling.
+
+**Project management — Scrum Master role:**
+I led the team as Scrum Master, applying Agile methodologies throughout the project lifecycle. This included running daily stand-ups to track progress and surface blockers early, defining and monitoring delivery timelines across phases, and supervising deliverables at each stage — from data cleaning through to final presentation. The 3-week timeline was met in full.
 
 **AI-driven dataset enrichment:** One of the distinguishing features of this project was the use of AI models to generate and enrich the dataset — filling gaps in episode metadata and enabling analysis across variables not available in standard public datasets.
 
@@ -39,6 +42,8 @@ The analysis identified several non-obvious drivers of episode success:
 ## What This Project Demonstrates
 
 Beyond the technical execution, this project is an example of **data storytelling applied to a real cultural dataset** — taking 30 years of messy, incomplete data and building a coherent narrative that answers a genuine business question: what makes content last?
+
+It also demonstrates the ability to manage a technical team under time pressure — coordinating deliverables, keeping the project on track, and ensuring every phase was completed to standard.
 
 ## Stack
 
