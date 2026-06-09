@@ -52,4 +52,5 @@ Dialogue distribution among the six leads is remarkably even — none exceeds 18
 `Tableau Public` `Generative AI (dataset generation)` `Custom Color Palette`
 
 [View on Tableau Public](https://public.tableau.com/app/profile/micaela.lafratta/viz/Friends_Exitoserieycuriosidades/CentralPerk?publish=yes)
-[View on GitHub] (https://github.com/micaelalafratta/Friends-Series-Analysis-Tableau)
+
+[View on GitHub](https://github.com/micaelalafratta/Friends-Series-Analysis-Tableau)
