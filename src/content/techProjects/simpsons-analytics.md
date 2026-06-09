@@ -11,6 +11,7 @@ tags:
   - EDA
   - Tableau
   - Data Storytelling
+  - Agile 
 ---
 
 ## The Business Problem
@@ -19,7 +20,7 @@ What makes a TV show last 30+ years? The Simpsons is not just a cultural phenome
 
 ## Approach & Technical Execution
 
-This was a 3-week group project covering the full analytics pipeline, from dataset generation to visual storytelling.
+This was a 3-week group project covering the full analytics pipeline, from dataset generation to visual storytelling. I acted as scrum master.
 
 **AI-driven dataset enrichment:** One of the distinguishing features of this project was the use of AI models to generate and enrich the dataset — filling gaps in episode metadata and enabling analysis across variables not available in standard public datasets.
 
