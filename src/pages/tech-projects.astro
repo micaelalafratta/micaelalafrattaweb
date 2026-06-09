@@ -1,0 +1,66 @@
+---
+import { getCollection } from 'astro:content';
+import CallToAction from '../components/CallToAction.astro';
+import ContactCTA from '../components/ContactCTA.astro';
+import Grid from '../components/Grid.astro';
+import Hero from '../components/Hero.astro';
+import Icon from '../components/Icon.astro';
+import PortfolioPreview from '../components/PortfolioPreview.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const projects = (await getCollection('techProjects')).sort(
+	(a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf(),
+);
+---
+
+<BaseLayout
+	title="Tech Projects | Micaela Lafratta"
+	description="Personal and academic data analysis projects by Micaela Lafratta"
+>
+	<div class="stack gap-20">
+		<main class="wrapper stack gap-8">
+			<Hero
+				title="Tech Projects"
+				tagline="Personal and academic projects exploring data analysis, visualization and technical problem-solving."
+				align="start"
+			/>
+			<Grid variant="offset">
+				{
+					projects.map((project) => (
+						<li>
+							<PortfolioPreview project={project} basePath="tech-projects" />
+						</li>
+					))
+				}
+			</Grid>
+			<div class="github-cta">
+				<p>Want to see more? Check out my full repository on GitHub.</p>
+				<CallToAction href="https://github.com/micaelalafratta" target="_blank">
+					View on GitHub
+					<Icon icon="github-logo" size="1.2em" />
+				</CallToAction>
+			</div>
+		</main>
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.github-cta {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 1rem;
+		padding: 2rem 0;
+		text-align: center;
+	}
+
+	.github-cta p {
+		font-size: var(--text-md);
+		color: #6b4a3a;
+	}
+
+	:global(.theme-dark) .github-cta p {
+		color: #c4aaa0;
+	}
+</style>

@@ -18,8 +18,8 @@ export const collections = {
 		schema: workSchema,
 		
 	}),
-	dataProjects: defineCollection({
-		loader: glob({ base: './src/content/dataProjects', pattern: '**/*.md' }),
+	techProjects: defineCollection({
+		loader: glob({ base: './src/content/techProjects', pattern: '**/*.md' }),
 		schema: workSchema,
 	}),
 	experience: defineCollection({
