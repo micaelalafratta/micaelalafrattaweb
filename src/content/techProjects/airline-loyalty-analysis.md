@@ -56,4 +56,4 @@ Six analytical questions explored on the cleaned dataset, with visualisation typ
 
 `Python` `Pandas` `NumPy` `Matplotlib` `Seaborn`
 
-[View on GitHub](https://github.com/micaelalafratta)
+[View on GitHub](https://github.com/micaelalafratta/flight-customer-analysis)
