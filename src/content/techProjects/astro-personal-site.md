@@ -54,6 +54,6 @@ Every output was reviewed by me before it went live. When something was off — 
 
 `Astro` `CSS` `Netlify` `Markdown` `Claude (Anthropic)`
 
-[View on GitHub](https://github.com/micaelalafratta)
+[View on GitHub](https://github.com/micaelalafratta/micaelalafrattaweb)
 
 [Visit the site](https://www.micaelalafratta.com)
