@@ -85,8 +85,8 @@ const techProjects = (await getCollection('techProjects'))
 			<!-- WORK -->
 			<section id="work" class="section">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Selected Work</h3>
-					<p>Communications and impact projects where the work was measured: KPI tracking, audience analytics and reporting for EU funders and NGOs.</p>
+					<h3>Before Data</h3>
+					<p>Where I worked with data before it was my main craft: measured communications, EU project coordination and reporting.</p>
 				</header>
 
 				<div class="gallery">
@@ -103,31 +103,12 @@ const techProjects = (await getCollection('techProjects'))
 
 				<div class="cta-bottom">
 					<CallToAction href="/work/">
-						View All Work
+						View Full Background
 						<Icon icon="arrow-right" size="1.2em" />
 					</CallToAction>
 				</div>
 			</section>
 
-			<!-- EXPERIENCE -->
-			<section id="experience" class="section">
-				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Experience</h3>
-					<p>Roles where I've led communications, coordinated European projects and contributed to organisational strategy.</p>
-				</header>
-
-				<div class="gallery">
-					<Grid variant="offset">
-						{
-							experiences.map((entry) => (
-								<li>
-									<ExperiencePreview entry={entry} />
-								</li>
-							))
-						}
-					</Grid>
-				</div>
-			</section>
 
 			<!-- ABOUT -->
 			<section id="about" class="section about-section">

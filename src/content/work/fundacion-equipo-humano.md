@@ -12,6 +12,7 @@ tags:
   - Communications Strategy
   - Stakeholder Management
   - Brand & Design Systems
+featured: true
 ---
 
 ## The Role

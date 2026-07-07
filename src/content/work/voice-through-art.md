@@ -11,7 +11,7 @@ tags:
   - Communications
   - EU Projects
   - Social Inclusion
-featured: true
+
 ---
 
 ## The Project

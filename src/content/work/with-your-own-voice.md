@@ -11,7 +11,7 @@ tags:
   - Stakeholder Management
   - EU Projects
   - Training & Facilitation
-featured: true
+  
 ---
 
 ## The Project

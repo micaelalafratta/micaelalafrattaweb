@@ -13,6 +13,7 @@ tags:
   - EU Projects
   - Web Content
   - Leadership
+featured: true
 ---
 
 ## The Role
