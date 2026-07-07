@@ -124,10 +124,10 @@ const techProjects = (await getCollection('techProjects'))
 
 					<div class="about-content">
 						<div class="about-text stack gap-4">
-							<p>
+							<blockquote class="about-quote">
 								The hardest part of governance isn't the framework. It's making sure everyone
 								understands what's at stake.
-							</p>
+							</blockquote>
 							<p>
 								I'm a data analyst with eight years of experience working with data inside
 								communications and project roles: tracking KPIs, optimising conversion funnels,
@@ -166,26 +166,31 @@ const techProjects = (await getCollection('techProjects'))
 						<div class="about-skills stack gap-4">
 
 							<div class="skill-group">
-								<h4>AI Governance & Compliance</h4>
-								<div class="pill-group">
-								<Pill>AI Governance</Pill>
-								<Pill>EU AI Act</Pill>
-								<Pill>FRIA</Pill>
-								<Pill>Algorithmic Bias</Pill>
-								<Pill>Human Rights & AI</Pill>
-								<Pill>Data Literacy</Pill>
-								<Pill>DAMA DMBOK</Pill>
-								</div>
-							</div>
-
-							<div class="skill-group">
 								<h4>Technical Skills</h4>
 								<div class="pill-group">
 								<Pill>SQL</Pill>
 								<Pill>Python</Pill>
+								<Pill>Pandas</Pill>
 								<Pill>Power BI</Pill>
 								<Pill>Tableau</Pill>
+								<Pill>Excel</Pill>
+								<Pill>BigQuery</Pill>
+								<Pill>GA4</Pill>
 								<Pill>APIs</Pill>
+								<Pill>EDA</Pill>
+								</div>
+							</div>
+
+							<div class="skill-group">
+								<h4>Data Governance & AI Ethics</h4>
+								<div class="pill-group">
+								<Pill>DAMA DMBOK</Pill>
+								<Pill>EU AI Act</Pill>
+								<Pill>FRIA</Pill>
+								<Pill>GDPR</Pill>
+								<Pill>Algorithmic Bias</Pill>
+								<Pill>Human Rights & AI</Pill>
+								<Pill>Data Literacy</Pill>
 								</div>
 							</div>
 
@@ -216,6 +221,7 @@ const techProjects = (await getCollection('techProjects'))
 								<Pill>English</Pill>
 								<Pill>Spanish</Pill>
 								<Pill>French</Pill>
+								<Pill>Valencian</Pill>
 								</div>
 							</div>
 
@@ -382,6 +388,23 @@ const techProjects = (await getCollection('techProjects'))
 
 	:global(.theme-dark) .about-text p {
 		color: #c4aaa0;
+	}
+
+	.about-quote {
+		margin: 0 0 0.5rem;
+		border: none;
+		font-family: var(--font-body);
+		font-size: var(--text-lg);
+		font-weight: 500;
+		line-height: 1.5;
+		color: var(--gray-100);
+		max-width: 65ch;
+	}
+
+	@media (min-width: 50em) {
+		.about-quote {
+			font-size: var(--text-xl);
+		}
 	}
 
 	.about-cta {
