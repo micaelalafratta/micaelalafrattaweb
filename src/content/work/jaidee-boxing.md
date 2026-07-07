@@ -1,5 +1,6 @@
 ---
 title: Jaidee Boxing — Digital Launch
+type: project
 publishDate: 2020-12-01 00:00:00
 img: /assets/jaidee/jaidee1.png
 img_alt: Jaidee Boxing corporate video and website

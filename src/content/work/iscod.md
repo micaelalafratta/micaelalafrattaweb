@@ -1,5 +1,6 @@
 ---
 title: ISCOD-UGT — Web Design and Training
+type: project
 publishDate: 2024-06-01 00:00:00
 img: /assets/iscod/iscod 1.png
 img_alt: Website for Ropa Sucia documentary and its educational guide

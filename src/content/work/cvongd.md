@@ -1,5 +1,6 @@
 ---
 title: CVONGD — Communication Design Templates
+type: project
 publishDate: 2023-07-01 00:00:00
 img: /assets/cvongd/cvongd1.png
 img_alt: Communication design templates created for CVONGD

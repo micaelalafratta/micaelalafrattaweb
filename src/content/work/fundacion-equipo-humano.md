@@ -1,5 +1,6 @@
 ---
 title: Fundación Equipo Humano — EU Communication Manager
+type: role
 publishDate: 2025-07-01 00:00:00
 startDate: 2024-07-01
 endDate: 2025-07-01

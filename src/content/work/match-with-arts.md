@@ -1,5 +1,6 @@
 ---
 title: Match With Arts and Culture — Methodology and Training Development — Web Design
+type: project
 publishDate: 2023-12-01 00:00:00
 img: /assets/mac/mac1.png
 img_alt: Website and social media materials for the Match With Arts and Culture European project

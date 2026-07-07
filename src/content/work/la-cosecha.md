@@ -1,5 +1,6 @@
 ---
 title: La Cosecha — Communication & Web Manager
+type: role
 publishDate: 2024-10-01 00:00:00
 startDate: 2021-01-01
 endDate: 2024-06-01

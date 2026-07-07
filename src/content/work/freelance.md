@@ -1,5 +1,6 @@
 ---
 title: Freelance — Digital Marketing & Strategic Communication
+type: role
 publishDate: 2025-04-01 00:00:00
 startDate: 2017-09-01
 endDate: 2024-06-01

@@ -1,5 +1,6 @@
 ---
 title: Mujeres Construyendo en Paz — End-to-end Communications Strategy
+type: project
 publishDate: 2021-12-01 00:00:00
 img: /assets/mcp/mcp1.png
 img_alt: Communications materials and press coverage for Mujeres Construyendo en Paz

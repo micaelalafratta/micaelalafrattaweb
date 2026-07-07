@@ -1,5 +1,6 @@
 ---
 title: With Your Own Voice — Coordination — Methodology and Training Development  
+type: project
 publishDate: 2025-07-01 00:00:00
 img: /assets/wyov/wyov.png
 img_alt: With Your Own Voice project website and workshop imagery showing international collaboration across Spain, Greece, Italy and Portugal

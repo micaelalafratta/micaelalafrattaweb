@@ -1,5 +1,6 @@
 ---
 title: SB OverSeas — Programme Coordinator
+type: role
 publishDate: 2020-04-01 00:00:00
 startDate: 2019-09-01
 endDate: 2020-04-01

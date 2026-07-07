@@ -1,5 +1,6 @@
 ---
 title: Voice Through Art — Methodology and Training Development
+type: project
 publishDate: 2024-12-01 00:00:00
 img: /assets/voice/voice4.png
 img_alt: Educational materials and unit content for the Voice Through Art European project
