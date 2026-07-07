@@ -55,38 +55,11 @@ const techProjects = (await getCollection('techProjects'))
 
 		<main class="wrapper stack gap-20 lg:gap-48">
 
-			<!-- WORK -->
-			<section id="work" class="section">
-				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Selected Work</h3>
-					<p>A selection of communications projects — from end-to-end campaign management to strategic storytelling.</p>
-				</header>
-
-				<div class="gallery">
-					<Grid variant="offset">
-						{
-							projects.map((project) => (
-								<li>
-									<PortfolioPreview project={project} />
-								</li>
-							))
-						}
-					</Grid>
-				</div>
-
-				<div class="cta-bottom">
-					<CallToAction href="/work/">
-						View All Work
-						<Icon icon="arrow-right" size="1.2em" />
-					</CallToAction>
-				</div>
-			</section>
-
 			<!-- TECH PROJECTS -->
 			<section id="tech-projects" class="section">
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Tech Projects</h3>
-					<p>Data analysis, visualisation and technical projects — from people analytics to SQL and API extraction.</p>
+					<p>Data analysis, visualisation and technical projects, from people analytics to SQL and API extraction.</p>
 				</header>
 
 				<div class="gallery">
@@ -104,6 +77,33 @@ const techProjects = (await getCollection('techProjects'))
 				<div class="cta-bottom">
 					<CallToAction href="/tech-projects/">
 						View All Projects
+						<Icon icon="arrow-right" size="1.2em" />
+					</CallToAction>
+				</div>
+			</section>
+
+			<!-- WORK -->
+			<section id="work" class="section">
+				<header class="section-header stack gap-2 lg:gap-4">
+					<h3>Selected Work</h3>
+					<p>Communications and impact projects where the work was measured: KPI tracking, audience analytics and reporting for EU funders and NGOs.</p>
+				</header>
+
+				<div class="gallery">
+					<Grid variant="offset">
+						{
+							projects.map((project) => (
+								<li>
+									<PortfolioPreview project={project} />
+								</li>
+							))
+						}
+					</Grid>
+				</div>
+
+				<div class="cta-bottom">
+					<CallToAction href="/work/">
+						View All Work
 						<Icon icon="arrow-right" size="1.2em" />
 					</CallToAction>
 				</div>
@@ -148,28 +148,32 @@ const techProjects = (await getCollection('techProjects'))
 					<div class="about-content">
 						<div class="about-text stack gap-4">
 							<p>
-								I'm a Data Analyst and Communications Strategist with 8 years of experience 
-								working with data — tracking KPIs, optimising conversion funnels, building 
-								reporting frameworks and turning analytics into decisions for clients across 
-								the EU third sector, SaaS and international cooperation.
+								The hardest part of governance isn't the framework. It's making sure everyone
+								understands what's at stake.
 							</p>
 							<p>
-								In 2025 I completed an intensive Data Analysis & AI programme at Adalab, 
-								formalising that practice into a full technical stack: Python, SQL, Power BI 
-								and Tableau. The projects I built there — people analytics, EDA pipelines, 
-								interactive dashboards — are extensions of work I've been doing for years, 
-								now with the tools to go deeper.
+								I'm a data analyst with eight years of experience working with data inside
+								communications and project roles: tracking KPIs, optimising conversion funnels,
+								building reporting frameworks and turning analytics into decisions for clients
+								across the EU third sector, SaaS and international cooperation.
 							</p>
 							<p>
-								My background in Human Rights Law gives the data work a direction. 
-								I care about what the numbers represent — who they affect, how frameworks 
-								are applied, and whether the people who need to act on them actually understand 
-								what they're looking at. That's what pulls me toward data governance and AI 
-								ethics as a longer-term focus: not as a regulatory exercise, but as a question 
+								In 2025 I completed an intensive Data Analysis and AI programme at Adalab,
+								formalising that practice into a full technical stack: Python, SQL, Power BI
+								and Tableau. The projects I built there, people analytics, EDA pipelines and
+								interactive dashboards, are extensions of work I'd been doing for years, now
+								with the tools to go deeper.
+							</p>
+							<p>
+								My background in Human Rights Law gives the data work a direction.
+								I care about what the numbers represent: who they affect, how frameworks
+								are applied, and whether the people who need to act on them actually understand
+								what they're looking at. That's what pulls me toward data governance and AI
+								ethics as a longer-term focus, not as a regulatory exercise, but as a question
 								of consequences.
 							</p>
 							<p>
-								If you've read this far and it clicks — reach out. 
+								If you've read this far and it clicks, reach out.
 								I'd love to hear what you're working on.
 							</p>
 
