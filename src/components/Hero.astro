@@ -3,10 +3,12 @@ interface Props {
 	title: string;
 	subtitle?: string;
 	tagline?: string;
+	purpose?: string;
+	intro?: string;
 	align?: 'start' | 'center';
 }
 
-const { align = 'center', tagline, title, subtitle } = Astro.props;
+const { align = 'center', tagline, title, subtitle, purpose, intro } = Astro.props;
 ---
 
 <div class:list={['hero stack gap-4', align]}>
@@ -14,6 +16,8 @@ const { align = 'center', tagline, title, subtitle } = Astro.props;
 		<h1 class="title">{title}</h1>
 		{subtitle && <p class="subtitle">{subtitle}</p>}
 		{tagline && <p class="tagline">{tagline}</p>}
+		{purpose && <p class="hero__purpose">{purpose}</p>}
+		{intro && <p class="hero__intro">{intro}</p>}
 	</div>
 	<slot />
 </div>
@@ -52,6 +56,22 @@ const { align = 'center', tagline, title, subtitle } = Astro.props;
 		font-family: var(--font-body);
 	}
 
+	.hero__purpose {
+		font-family: var(--font-body);
+		font-size: 1.2rem;
+		line-height: 1.5;
+		color: #6b4a3a;
+		margin: 0 0 1.25rem;
+	}
+
+	.hero__intro {
+		font-size: 1rem;
+		line-height: 1.7;
+		color: #6b4a3a;
+		max-width: 560px;
+		margin: 0;
+	}
+
 	:global(.theme-dark) .title {
 		color: #f7f3e9;
 	}
@@ -61,6 +81,11 @@ const { align = 'center', tagline, title, subtitle } = Astro.props;
 	}
 
 	:global(.theme-dark) .tagline {
+		color: #c4aaa0;
+	}
+
+	:global(.theme-dark) .hero__purpose,
+	:global(.theme-dark) .hero__intro {
 		color: #c4aaa0;
 	}
 
