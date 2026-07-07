@@ -1,6 +1,6 @@
 ---
 title: Strategic Talent Retention Analysis
-publishDate: 2026-01-15 00:00:00
+publishDate: 2026-07-01 00:00:00
 img: /assets/churn-analysis-viz.png
 img_alt: Power BI dashboard showing workforce stability metrics, attrition benchmarks by role, and correlation between overtime and employee turnover
 featured: true
