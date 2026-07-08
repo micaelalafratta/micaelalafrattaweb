@@ -10,13 +10,30 @@ const {
 	title = 'Micaela Lafratta: Personal Site',
 	description = 'The personal site of Micaela Lafratta',
 } = Astro.props;
+
+const ogImage = new URL('/assets/web-micaela-header.png', Astro.site).toString();
+const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
 ---
 
 <meta charset="UTF-8" />
-<meta name="description" property="og:description" content={description} />
+<meta name="description" content={description} />
 <meta name="viewport" content="width=device-width" />
 <meta name="generator" content={Astro.generator} />
 <title>{title}</title>
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content={canonicalURL} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={ogImage} />
+<meta property="og:image:alt" content="Micaela Lafratta smiling in cream jacket and blue shirt" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImage} />
 
 <!-- Google tag (gtag.js) -->
   <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-YCZ36DKZZ4"></script>
