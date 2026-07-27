@@ -59,4 +59,4 @@ The point of the project is that these are documented as they happen, not recons
 
 `Python` `Pandas` `SQL` `BigQuery` `Adzuna API` `Looker Studio`
 
-[View on GitHub](https://github.com/micaelalafratta/hr-observatory) *(private during Phase 1, made public on completion)*
+[View on GitHub](https://github.com/micaelalafratta/hr-observatory) 
